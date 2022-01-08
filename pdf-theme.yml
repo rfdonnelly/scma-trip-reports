@@ -1,0 +1,7 @@
+extends: default
+
+title-page:
+  authors:
+    delimiter: "\n"
+  title:
+    top: 10%
