@@ -1,0 +1,47 @@
+= SCMA Trip Reports
+
+This serves as a venue for me to write trip reports for the Southern California Mountaineers Association (SCMA).
+
+I write and revise the reports here then publish them to the internal SCMA Cliffnotes.
+
+== Publishing
+
+The SCMA website is showing its age.
+The interface is a bit arcane.
+This section captures the process I use.
+Hopefully this makes the process a little smoother for my future self.
+
+. Create a New Blog Post
+. Open the Media manager
+.. Create a new folder under the My Media folder
+.. Upload all images to the new folder
+.. Close the Media manager
+. Select a category
+. Enter a title
+. Adjust the permalink
+. Copy and paste text of trip report into the post
+. Insert the "Read More" element a few paragraphs into the post
++
+This reduces noise on the main Cliffnotes page and possibly produces shorter emails.
+Users need to click a "Read More" link to see the rest of the post.
+. Use the "Insert Media" button to insert images from the Media manager
+.. In the Media manager, select the desired image
+.. Click the "Customize" button
+.. Select "Original"
+.. Check "Add image caption" and add a caption
+.. Check "Enable lightbox"
+.. Check enforce image dimension
+... Set width to ~500px
++
+500px is just under the width of the text.
+You could go a little wider here.
+.. Click "Insert"
+.. Click "Back to dashboard"
+.. Repeat until all images are inserted
++
+NOTE: I tried playing with floating images to the right or left of the text but was only met with disappointment.
+Keeping the default alignment will save you pain.
+. Add a year tag, the trip report tag, and a location tag
+. Add a location
+. Click Live Preview at the top to preview
+. Click Save as Draft or Publish
