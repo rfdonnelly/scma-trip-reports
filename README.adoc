@@ -4,6 +4,31 @@ This serves as a venue for me to write trip reports for the Southern California 
 
 I write and revise the reports here then publish them to the internal SCMA Cliffnotes.
 
+== Creating
+
+Create a new `.adoc` file in the corresponding year YYYY directory.
+Follow existing naming convention.
+
+== Previewing
+
+[source,sh]
+.Make all outputs
+----
+make
+----
+
+[source,sh]
+.Make HTML outputs
+----
+make htmls
+----
+
+[source,sh]
+.Make PDF outputs
+----
+make pdfs
+----
+
 == Publishing
 
 The SCMA website is showing its age.
