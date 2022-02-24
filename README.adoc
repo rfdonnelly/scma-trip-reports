@@ -47,7 +47,7 @@ Hopefully this makes the process a little smoother for my future self.
 . Copy and paste text of trip report into the post
 +
 For links, configure them to open in a new window/tab so that readers don't lose their spot in the post.
-. Insert the "Read More" element a few paragraphs into the post
+. Insert the "Read More" element after one or two paragraphs into the post
 +
 This reduces noise on the main Cliffnotes page and possibly produces shorter emails.
 Users need to click a "Read More" link to see the rest of the post.
