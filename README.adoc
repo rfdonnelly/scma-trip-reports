@@ -105,6 +105,8 @@ Users need to click a "Read More" link to see the rest of the post.
 .. Click the "Customize" button
 .. Select "Original"
 .. Check "Add image caption" and add a caption
++
+NOTE: Captions are not included in "New Blog Post" email notifications.
 .. Check "Enable lightbox"
 .. Check enforce image dimension
 ... Set width to ~500px
