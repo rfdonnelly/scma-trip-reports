@@ -1,4 +1,6 @@
 = SCMA Trip Reports
+# For the menu and button macros
+:experimental:
 
 This serves as a venue for me to write trip reports for the Southern California Mountaineers Association (SCMA).
 
@@ -28,6 +30,32 @@ make htmls
 ----
 make pdfs
 ----
+
+== Image Processing
+
+I use https://www.irfanview.com[IrfanView] to batch convert and resize all images.
+
+. Open IrfanView
+. Select the menu:File[Batch Conversion/Rename...] menu item
+
+. Convert all images to JPEGs
+. Select the the images to convert
+.. Click btn:[Add]
+. Set the *Output format* to `JPG`
+.. Click btn:[Options]
+.. Set the *Save quality* to `95`
+.. Click btn:[OK]
+. Check *Use advanced options*
+.. Click btn:[Advanced]
+.. Check *RESIZE*
+.. Select *Set one or both sides to:*
+.. Enter `1024` for the *Width*, leave the *Height* blank
+.. Click btn:[OK]
+. Click *Use current ('Look in') folder*
++
+NOTE: This will overwrite the original images.
+Select a different directory if this is undesireable.
+. Click btn:[Start Batch]
 
 == Publishing
 
