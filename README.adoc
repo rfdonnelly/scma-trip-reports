@@ -33,6 +33,8 @@ make pdfs
 
 == Image Processing
 
+Images need some processing to make them suitable for the web by reducing the file size while balancing the quality.
+
 I use https://www.irfanview.com[IrfanView] to batch convert and resize all images.
 
 . Open IrfanView
