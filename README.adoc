@@ -33,9 +33,28 @@ make pdfs
 
 == Image Processing
 
-Images need some processing to make them suitable for the web by reducing the file size while balancing the quality.
+Images need some basic processing to make them suitable for the web by reducing the file size while balancing the quality.
 
-I use https://www.irfanview.com[IrfanView] to batch convert and resize all images.
+=== Selection
+
+First, I gather all trip report images into a Google Photos album.
+
+I do this by soliciting photos from the trip attendees via a Google Photos shared album.
+I then review and select candidate photos in an attempt to tell a story.
+After selecting the photos, I then add them to a Google Photos album dedicated to the trip report.
+
+=== Cropping
+
+Next, I crop the images to better frame the subject and the surroundings.
+
+I also consider the media format.
+For example, my phone takes extremely tall portraits.
+I want each photo to be viewable in full on most screens.
+So I usually crop these tall portraits to be closer to a more standard aspect ratio.
+
+=== Web
+
+I use https://www.irfanview.com[IrfanView] to batch convert and resize all images for the web.
 
 . Open IrfanView
 . Select the menu:File[Batch Conversion/Rename...] menu item
