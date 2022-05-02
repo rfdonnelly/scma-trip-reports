@@ -1,6 +1,11 @@
 = Publishing SCMA Trip Reports
+:toc: macro
+# For the menu and button macros
+:experimental:
 
 This document describes a process for writing and publishing trip reports.
+
+toc::[]
 
 == Writing
 
