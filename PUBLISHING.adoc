@@ -1,0 +1,101 @@
+= Publishing SCMA Trip Reports
+
+This document describes a process for writing and publishing trip reports.
+
+== Writing
+
+I recommend writing your trip report in a word processor (e.g. Word, Google Docs, etc) then copy it into the SCMA blog interface when it is finished.
+This is a lot easier than trying to write in the SCMA blog interface.
+
+== Image Processing
+
+Images need some basic processing to make them suitable for the web by reducing the file size while balancing the quality.
+
+=== Selection
+
+First, I gather all trip report images into a Google Photos album.
+
+I do this by soliciting photos from the trip attendees via a Google Photos shared album.
+I then review and select candidate photos in an attempt to tell a story.
+After selecting the photos, I then add them to a Google Photos album dedicated to the trip report.
+
+=== Cropping
+
+Next, I crop the images to better frame the subject and the surroundings.
+
+I also consider the media format.
+For example, my phone takes extremely tall portraits.
+I want each photo to be viewable in full on most screens.
+So I usually crop these tall portraits to be closer to a more standard aspect ratio.
+
+=== Web
+
+I use https://www.irfanview.com[IrfanView] to batch convert and resize all images for the web.
+
+. Open IrfanView
+. Select the menu:File[Batch Conversion/Rename...] menu item
+
+. Convert all images to JPEGs
+. Select the the images to convert
+.. Click btn:[Add]
+. Set the *Output format* to `JPG`
+.. Click btn:[Options]
+.. Set the *Save quality* to `95`
+.. Click btn:[OK]
+. Check *Use advanced options*
+.. Click btn:[Advanced]
+.. Check *RESIZE*
+.. Select *Set one or both sides to:*
+.. Enter `1024` for the *Width*, leave the *Height* blank
+.. Click btn:[OK]
+. Click *Use current ('Look in') folder*
++
+NOTE: This will overwrite the original images.
+Select a different directory if this is undesireable.
+. Click btn:[Start Batch]
+
+== Publishing
+
+This section captures the process I use for publishing trip reports on the SCMA website.
+The SCMA website is showing its age.
+The interface is a bit arcane.
+Hopefully this makes the process a little smoother for my future self and others.
+
+. Create a New Blog Post
+. Open the Media manager
+.. Create a new folder under the My Media folder
+.. Upload all images to the new folder
+.. Close the Media manager
+. Select a category
+. Enter a title
+. Adjust the permalink
+. Copy and paste text of trip report into the post
++
+For links, configure them to open in a new window/tab so that readers don't lose their spot in the post.
+. Insert the "Read More" element after one or two paragraphs into the post
++
+This reduces noise on the main Cliffnotes page and possibly produces shorter emails.
+Users need to click a "Read More" link to see the rest of the post.
+. Use the "Insert Media" button to insert images from the Media manager
+.. In the Media manager, select the desired image
+.. Click the "Customize" button
+.. Select "Original"
+.. Check "Add image caption" and add a caption
++
+NOTE: Captions are not included in "New Blog Post" email notifications.
+.. Check "Enable lightbox"
+.. Check enforce image dimension
+... Set width to ~500px
++
+500px is just under the width of the text.
+You could go a little wider here.
+.. Click "Insert"
+.. Click "Back to dashboard"
+.. Repeat until all images are inserted
++
+NOTE: I tried playing with floating images to the right or left of the text but was only met with disappointment.
+Keeping the default alignment will save you pain.
+. Add a year tag, the trip report tag, and a location tag
+. Add a location
+. Click Live Preview at the top to preview
+. Click Save as Draft or Publish
