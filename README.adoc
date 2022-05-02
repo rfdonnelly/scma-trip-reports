@@ -1,10 +1,13 @@
 = SCMA Trip Reports
+:toc: macro
 # For the menu and button macros
 :experimental:
 
 This serves as a venue for me to write trip reports for the Southern California Mountaineers Association (SCMA).
 
 I write and revise the reports here then publish them to the internal SCMA Cliffnotes.
+
+toc::[]
 
 == Creating
 
@@ -80,9 +83,9 @@ Select a different directory if this is undesireable.
 
 == Publishing
 
+This section captures the process I use for publishing trip reports ont he SCMA website.
 The SCMA website is showing its age.
 The interface is a bit arcane.
-This section captures the process I use.
 Hopefully this makes the process a little smoother for my future self.
 
 . Create a New Blog Post
